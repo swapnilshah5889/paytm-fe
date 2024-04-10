@@ -8,5 +8,8 @@ module.exports = {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
   },
-  ignorePatterns: ['*.config.js']
+  ignorePatterns: [
+    '.*.js',
+    'node_modules/**'
+  ]
 };
